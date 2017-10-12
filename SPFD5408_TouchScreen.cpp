@@ -156,7 +156,7 @@ TSPoint TouchScreen::getPoint(void) {
      z = 0;
    }
 
-   return TSPoint(x, y, z);
+   return TSPoint(1023 - x, 1023 - y, z);
 }
 
 TouchScreen::TouchScreen(uint8_t xp, uint8_t yp, uint8_t xm, uint8_t ym) {
