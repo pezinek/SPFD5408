@@ -1,9 +1,13 @@
 #SPFD5408 Library
 	Author: Joao Lopes
+	
 	Versions: 
-		0.9.0 - Beta 1: First public beta - 18/07/15
-		0.9.1 - Beta 2: Now works on Mega boards - 19/07/15
-		0.9.2 - Beta 3: Now works no Leornardo too - 29/07/15
+	
+		- 0.9.0 - Beta 1: First public beta - 18/07/15
+		- 0.9.1 - Beta 2: Now works on Mega boards - 19/07/15
+		- 0.9.2 - Beta 3: Now works no Leornardo too - 29/07/15
+		- latest - Switched axes orientation to work with this LCD shield: 
+		  https://www.banggood.com/UNO-R3-ATmega328P-Board-2_4-Inch-TFT-LCD-Screen-Module-For-Arduino-p-945755.html
 
 This library is the Adafruit TFT Libraries changed to works in TFT 2.4 shields with the SPFD5408 controller.
 Tested on Arduino Uno, Leonardo and Mega. See it on action in: https://www.youtube.com/watch?v=Q8WvEjXvAws
